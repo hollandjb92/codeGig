@@ -40,5 +40,4 @@ Follow these instructions to get a copy of the project up and running on your lo
 <li><a href="https://www.npmjs.com/package/body-parser" rel="nofollow">Body-Parser</a></li>
     <li><a href="https://www.npmjs.com/package/express-handlebars" rel="nofollow">Express-Handlebars</a></li>
 <li><a href="http://docs.sequelizejs.com/" rel="nofollow">Sequelize</a></li>
-  <li><a href="https://www.npmjs.com/package/dotenv" rel="nofollow">DotEnv</a></li>
 </ul>
