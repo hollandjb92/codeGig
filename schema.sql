@@ -1,0 +1,10 @@
+CREATE TABLE gigs (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  title VARCHAR(255) NOT NULL,
+  technologies VARCHAR(255) NOT NULL,
+  budget VARCHAR(255) NOT NULL,
+  gigDescription TEXT NOT NULL,
+  contactEmail VARCHAR(255) NOT NULL,
+  createdAt TIMESTAMP,
+  updatedAt TIMESTAMP
+);
