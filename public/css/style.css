@@ -39,7 +39,7 @@ a:hover {
   overflow: hidden;
 }
 
-.error {
+.err {
   padding: 5px;
   border: #777 dotted 1px;
   margin-bottom: 15px;

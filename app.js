@@ -4,6 +4,7 @@ const exphbs = require("express-handlebars"),
   express = require("express"),
   path = require("path");
 
+
 //TEST DB
 db.authenticate()
   .then(_ => console.log("Databse connected..."))
@@ -24,8 +25,15 @@ app.set("view engine", "handlebars");
 //Set Static folder
 app.use(express.static(path.join(__dirname, "public")));
 
+//Body Parser
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
+
 //Index route
-app.get("/", (req, res) => res.render("index", { layout: "landing" }));
+app.get("/", (req, res) => res.render("index", {
+  layout: "landing"
+}));
 
 // Gig routes
 app.use("/gigs", require("./routes/gigs"));
